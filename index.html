@@ -1,1 +1,153 @@
-index
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0b11;
+        }
+
+        header {
+            background-color: #bb9ed4;
+            color: rgb(10, 3, 20);
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(183, 128, 204);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #d6addf;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .info div {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            background-color: #e5b0ec;
+            border-radius: 6px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .info {
+                flex-direction: column;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Currículum</h1>
+    </header>
+
+    <section>
+        <div style="text-align: center;">
+            <img class="profile-pic" src="perfil.png" alt="Foto de perfil">
+        </div>
+    </section>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <div class="info">
+            <div>
+                <h3>Nombre</h3>
+                <p>Lesly Marleny Mejia Noj</p>
+            </div>
+            <div>
+                <h3>Correo Electrónico</h3>
+                <p>MejiaLesly014@gmail.com</p>
+            </div>
+            <div>
+                <h3>Teléfono</h3>
+                <p>(502) 5678-8930</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <div>
+            <h3>Asistente Administrativa</h3>
+            <p>Innovatech Solutions - Ciudad de guatemala, Guatemala | Fecha de inicio 2017 - Actualmente</p>
+            <ul>
+                <li>1.Gestión de la agenda
+                    2. Comunicación
+                    3. Administración de documentos
+                    4. Organización de viajes
+                    5. Gestión de gastos
+                    6. Soporte en reuniones
+                    7. Coordinación de proyectos
+                    8. Soporte administrativo general
+                    9. Manejo de bases de datos y sistemas
+                    10. Atención al cliente interno y externo
+                    ...</li>
+                </ul>
+            </div>
+
+        <div>
+            <h3>Call center</h3>
+            <p>Alorica - Ciudad guatemala, Guatemala | Fecha de inicio 2015 - Fecha de fin 2017</p>
+            <ul>
+                <li>Servicio al cliente...</li>
+                <li>Backoffice...</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <div>
+            <h3>Grado Universitario</h3>
+            <p>Licenciatura en Derecho, Universidad de San Carlos de Guatemala | Fecha de inicio 2014- Fecha de fin 2019</p>
+            <p>Licenciatura en ciencia juridicas y sociales (si aplica)</p>
+        </div>
+    </section>
+    <section>
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>    
+    <section>
+        <h2>Certificaciones</h2>
+        <ul>
+            <li>Certificación en Desarrollo Web</li>
+            <li>Curso de Certificación en Python</li>
+        </ul>
+    </section>    
+</body>
+</html>
